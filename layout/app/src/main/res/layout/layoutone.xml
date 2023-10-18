@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:stretchColumns="1"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <TableRow>
+        <TextView
+            android:padding="3dip"
+            android:text="Open"/>
+        <TextView
+            android:padding="3dip"
+            android:text="Short cut"
+            android:gravity="right"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:padding="3dip"
+            android:text="SAVE"/>
+        <TextView
+            android:padding="3dip"
+            android:text="SAve Short Cut"
+            android:gravity="right"/>
+    </TableRow>
+</TableLayout>
